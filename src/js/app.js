@@ -6,6 +6,6 @@ button.addEventListener('click', () => {
     button.querySelector('.popover-box').remove();
   } else {
     const popover = new Popover(button);
-    popover.createPopover(button);
+    popover.createPopover();
   }
 });
